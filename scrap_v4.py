@@ -2,6 +2,8 @@ from google_play_scraper import reviews
 import re
 import os
 
+scrape_result_cache = map()
+
 class AppScraper:
 
 	def __init__(self, app_url, market_tag, lang_tag, regex_strings):
@@ -15,8 +17,7 @@ class AppScraper:
 		self.files = dict()
 
 	def scrape(self):
-		self.init_scrape_site()
-		self.remaining_scrape_site()
+		self.get_scrape_result()
 		self.mkdir()
 		self.print_header()
 		self.extract_reviews()
@@ -25,8 +26,19 @@ class AppScraper:
 		self.output_result()
 		os.chdir(self.init_dir)
 
+	def get_scrape_result(self):
+		if (self.market_tag, self.lang_tag) in scrape_result_cache:
+			self.scrape_result = scrape_result_cache[(self.market_tag, self.lang_tag)]
+		else: 
+			self.init_scrape_site()
+			self.remaining_scrape_site()
+			scrape_result_cache[(self.market_tag, self.lang_tag)] = self.scrape_result
+
+	def dir_path(self):
+		return os.path.join(os.getcwd(),self.lang_tag + "_" + self.market_tag)
+
 	def mkdir(self):
-		self.new_path = os.path.join(os.getcwd(),self.lang_tag + "_" + self.market_tag)
+		self.new_path = dir_path()
 		if not self.scrape_result:
 			return
 		os.mkdir(self.new_path)
@@ -113,11 +125,16 @@ class AppScraper:
 			print("")
 		out_file.close()
 
+class 3_StarScraper(AppScraper):
+	def extract_reviews(self):
+		self.reviews = [ e["content"] for e in self.scrape_result if e["score"] < 4 ]
+	def dir_path(self):
+		return os.path.join(os.getcwd(),self.lang_tag + "_" + self.market_tag + "_three_star")
+
 de_regex_strings = ["[tT]ablet|[iI][pP]ad"
 	,"[cC]oin|[cC]ashback|[gG]utschein"
-	,"[lL]ist|[sS]peichern|[eE]inkaufszettel"
+	,"[lL]ist|[sS]peichern|[eE]inkaufszettel|[lL]ieblings|[fF]avorit"
 	,"[bB]riefkast"
-	,"[lL]ieblings|[fF]avorit"
 	,"[Aa]ldi|[Pp]enny|[Nn]etto|[Kk]aufland|[sS]aturn| [Ff]ehlen| [fF]ehlt"
 	,"[wW]erbung"
 	,"[sS]tandort|[nN][aä]he|[sS]t[äa]dt|[pP]ostleitzahl"
@@ -134,17 +151,16 @@ fr_regex_strings = ["[nN]otifications"
 	,"[Cc]artes?"
 	,"[àa] jour"
 	,"local|[0-9 ]km|code postal"
-	,"[Ff]avori"
 	,"[Zz]oom|[Aa]grandi"
 	,"[Cc]onfinement|[Cc]orona"
-	,"[Ll]istes? des? courses?|[Ll]istes? d?'?achats?"
+	,"[Ll]istes? des? courses?|[Ll]istes? d?'?achats?|[Ff]avori|[sS]auve"
 	,"[Bb]ons? (de)? réduction|[Cc]oupon"
 	,"[Mm]anqu"
 	,"[Tt]ablette"
 	,"offline"
 	,"[tT]rop (de)? pubs?|[Tt]rop (de )?publicit[ée]s?|[Bb]ourr[ée]e?s? (de )?pubs?|[Bb]ourr[ée]e?s? (de )?publicit[ée]s?|[Bb]lind[ée]e?s? (de )?pubs?|[Bb]lind[ée]e?s? (de )?publicit[ée]s?|[Cc]ombl[ée]e?s? (des? )?pubs?|[Cc]omblee?s? (des? )?publiticit[ée]s?|pub [àa] (la)? pub|[Rr]emplie?s? (de )?pubs?|[Rr]emplie?s? (de )?publicit[ée]s|pubs? vid[ée]o|pop up"]
 
-it_regex_strings = ["[sS]alv[ao]|preferiti"
+it_regex_strings = ["[sS]alv[ao]|preferiti|[lL]ista della spesa"
 	,"[Cc]arte |fedelt[àa]|[tT]esser"
 	,"[Aa]ggiorna|in ritardo|puntual"
 	,"[Cc]artace|[cC]assetta"
@@ -177,21 +193,21 @@ def it_scrape(app_url, market_tag):
 	a = AppScraper(app_url, market_tag, 'it', it_regex_strings)
 	a.scrape()
 
-#de_scrape('com.marktguru.mg2.de', 'marktguru')
-#de_scrape('com.bonial.kaufda', 'kaufda')
-#de_scrape('de.meinprospekt.android', 'meinprospekt')
-#de_scrape('de.prospektangebote.app', 'kingbee_de')
-#de_scrape('com.actuelleprospekte', 'aktuelle_prospekte')
-#de_scrape('com.gamebegins.alleprospekte', 'alle_prospekte_angebote')
-#de_scrape('de.weekli.WeekliAndroid', 'weekli')
-#de_scrape('com.rzmobile.aktuellemainprospekte', 'prospekte_angebote')
-#de_scrape('de.youpickit.androidapp', 'einkaufen_prospekte_angebote_coupons')
-#de_scrape('com.wunderkauf.android', 'wunderkauf')
-#de_scrape('com.sales.deals.weekly.ads.offers', 'listonic_fr')
-#de_scrape('com.geomobile.tiendeo', 'tiendeo_de')
-#de_scrape('sk.kimbinogreen.kimbino', 'kimbino_de')
-#de_scrape('de.discounto', 'discount')
-#de_scrape('hu.p_app.angebot', 'prospekt_angebot_de')
+de_scrape('com.marktguru.mg2.de', 'marktguru')
+de_scrape('com.bonial.kaufda', 'kaufda')
+de_scrape('de.meinprospekt.android', 'meinprospekt')
+de_scrape('de.prospektangebote.app', 'kingbee_de')
+de_scrape('com.actuelleprospekte', 'aktuelle_prospekte')
+de_scrape('com.gamebegins.alleprospekte', 'alle_prospekte_angebote')
+de_scrape('de.weekli.WeekliAndroid', 'weekli')
+de_scrape('com.rzmobile.aktuellemainprospekte', 'prospekte_angebote')
+de_scrape('de.youpickit.androidapp', 'einkaufen_prospekte_angebote_coupons')
+de_scrape('com.wunderkauf.android', 'wunderkauf')
+de_scrape('com.sales.deals.weekly.ads.offers', 'listonic_fr')
+de_scrape('com.geomobile.tiendeo', 'tiendeo_de')
+de_scrape('sk.kimbinogreen.kimbino', 'kimbino_de')
+de_scrape('de.discounto', 'discount')
+de_scrape('hu.p_app.angebot', 'prospekt_angebot_de')
 de_scrape('de.marktjagd.android', 'marktjagd')
 
 

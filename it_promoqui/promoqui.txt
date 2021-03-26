@@ -1,4 +1,4 @@
-Length = 13476Search pattern * [sS]alv[ao] * returned result of : 138
+Length = 13484Search pattern * [sS]alv[ao]|preferiti * returned result of : 194
 Search pattern * [Cc]arte |fedelt[àa]|[tT]esser * returned result of : 85
 Search pattern * [Aa]ggiorna|in ritardo|puntual * returned result of : 1086
 Search pattern * [Cc]artace|[cC]assetta * returned result of : 86
@@ -6,13 +6,14 @@ Search pattern * [Zz]oom|ingrandi * returned result of : 53
 Search pattern * [Cc]ashback|[Cc]oupon|[Bb]uoni sconto|[Bb]uono sconto * returned result of : 5
 Search pattern * [Ii]nterattiv * returned result of : 3
 Search pattern * [Aa]mbiente|carta |giornalini|spreco|spreca |sprechi|sprecare * returned result of : 90
-Search pattern * [Mm]ancant|ignorat|manca |mancano * returned result of : 119
+Search pattern * [Mm]ancant|ignorat|manca |mancano * returned result of : 120
 Search pattern * [Nn]otifiche * returned result of : 70
 Search pattern * cancella|rimouv|scadut * returned result of : 58
 Search pattern * offline * returned result of : 29
 Search pattern * ritaglio|ritaglia|forbici * returned result of : 25
 Search pattern * anteprim|anticip * returned result of : 66
 Search pattern * [Ff]iltr|ordina per|ordino per|ordinare per * returned result of : 17
-Search pattern * [Rr]egione|[Pp]rovincia|[rRoma]|[Ll]ocal|[pP]osizione|distanza|zona|chilometr|vicin|due passi da * returned result of : 12675
+Search pattern * [Rr]egione|[Pp]rovincia|[rR]oma|[Ll]ocal|[pP]osizione|distanza|zona|chilometr|vicin|due passi da * returned result of : 441
 Search pattern * [tT]ablet * returned result of : 20
 Search pattern * [Pp]andemia|[Vv]irus|[Cc]orona|[Ll]ockdown * returned result of : 3
+Search pattern * [Pp]ubblicit[aà] * returned result of : 210

@@ -13,4 +13,4 @@ Search pattern * [Bb]ons? (de)? réduction|[Cc]oupon * returned result of : 0
 Search pattern * [Mm]anqu * returned result of : 0
 Search pattern * [Tt]ablette * returned result of : 0
 Search pattern * offline * returned result of : 0
-Search pattern * trop (de)? pubs?|trop (de )?publicit[ée]s?|bourr[ée]e?s? (de )?pubs?|bourr[ée]e?s? (de )?publicit[ée]s?|blind[ée]e?s? (de )?pubs?|blind[ée]e?s? (de )?publicit[ée]s?|combl[ée]e?s? (des? )?pubs?|comblee?s? (des? )?publiticit[ée]s?|pub [àa] (la)? pub|remplie?s? (de )?pubs?|remplie?s? (de )?publicit[ée]s|pubs? vid[ée]o|pop up * returned result of : 1
+Search pattern * [tT]rop (de)? pubs?|[Tt]rop (de )?publicit[ée]s?|[Bb]ourr[ée]e?s? (de )?pubs?|[Bb]ourr[ée]e?s? (de )?publicit[ée]s?|[Bb]lind[ée]e?s? (de )?pubs?|[Bb]lind[ée]e?s? (de )?publicit[ée]s?|[Cc]ombl[ée]e?s? (des? )?pubs?|[Cc]omblee?s? (des? )?publiticit[ée]s?|pub [àa] (la)? pub|[Rr]emplie?s? (de )?pubs?|[Rr]emplie?s? (de )?publicit[ée]s|pubs? vid[ée]o|pop up * returned result of : 2
