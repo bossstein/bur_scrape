@@ -144,7 +144,7 @@ fr_regex_strings = ["[nN]otifications"
 	,"offline"
 	,"[tT]rop (de)? pubs?|[Tt]rop (de )?publicit[ée]s?|[Bb]ourr[ée]e?s? (de )?pubs?|[Bb]ourr[ée]e?s? (de )?publicit[ée]s?|[Bb]lind[ée]e?s? (de )?pubs?|[Bb]lind[ée]e?s? (de )?publicit[ée]s?|[Cc]ombl[ée]e?s? (des? )?pubs?|[Cc]omblee?s? (des? )?publiticit[ée]s?|pub [àa] (la)? pub|[Rr]emplie?s? (de )?pubs?|[Rr]emplie?s? (de )?publicit[ée]s|pubs? vid[ée]o|pop up"]
 
-it_regex_strings = ["[sS]alv[ao]"
+it_regex_strings = ["[sS]alv[ao]|preferiti"
 	,"[Cc]arte |fedelt[àa]|[tT]esser"
 	,"[Aa]ggiorna|in ritardo|puntual"
 	,"[Cc]artace|[cC]assetta"
@@ -192,19 +192,19 @@ def it_scrape(app_url, market_tag):
 #de_scrape('sk.kimbinogreen.kimbino', 'kimbino_de')
 #de_scrape('de.discounto', 'discount')
 #de_scrape('hu.p_app.angebot', 'prospekt_angebot_de')
-#de_scrape('de.marktjagd.android', 'marktjagd')
+de_scrape('de.marktjagd.android', 'marktjagd')
 
 
-#fr_scrape('fr.promocatalogues.app', 'kingbee_fr')
-#fr_scrape('fr.bonial.android', 'bonial')
-#fr_scrape('com.cataloguepromotionsprospectus', 'catalogues_promo_et_prospectus')
-#fr_scrape('com.CataloguesActuelFr', 'catalogue_actuel')
-#fr_scrape('com.geomobile.tiendeo', 'tiendeo_fr')
-#fr_scrape('com.actuel.catalogue', 'promotions_catalogue')
-#fr_scrape('com.sales.deals.weekly.ads.offers', 'listonic_fr')
-#fr_scrape('info.funnyfoodpromofr', 'catalogue_promo_valioman')
-#fr_scrape('it.doveconviene.android', 'shopfully')
-#fr_scrape('sk.kimbinogreen.kimbino', 'kimbino_fr')
+fr_scrape('fr.promocatalogues.app', 'kingbee_fr')
+fr_scrape('fr.bonial.android', 'bonial')
+fr_scrape('com.cataloguepromotionsprospectus', 'catalogues_promo_et_prospectus')
+fr_scrape('com.CataloguesActuelFr', 'catalogue_actuel')
+fr_scrape('com.geomobile.tiendeo', 'tiendeo_fr')
+fr_scrape('com.actuel.catalogue', 'promotions_catalogue')
+fr_scrape('com.sales.deals.weekly.ads.offers', 'listonic_fr')
+fr_scrape('info.funnyfoodpromofr', 'catalogue_promo_valioman')
+fr_scrape('it.doveconviene.android', 'shopfully')
+fr_scrape('sk.kimbinogreen.kimbino', 'kimbino_fr')
 
 it_scrape('it.promoqui.android', 'promoqui')
 it_scrape('com.webfacile.volantinofacile', 'volantino_facile')
