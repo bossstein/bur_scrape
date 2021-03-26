@@ -229,7 +229,7 @@ it_regex_strings = ["[sS]alv[ao]|preferiti|[lL]ista della spesa"
 	,"ritaglio|ritaglia|forbici"
 	,"anteprim|anticip"
 	,"[Ff]iltr|ordina per|ordino per|ordinare per"
-	,"[Rr]egione|[Pp]rovincia|[rR]oma|[Ll]ocal|[pP]osizione|distanza|zona|chilometr|vicin|due passi da"
+	,"[Rr]egione|[Pp]rovincia|[rR]oma|[Ll]ocal| [pP]osizione|distanza|zona|chilometr|vicin|due passi da"
 	,"[tT]ablet"
 	,"[Pp]andemia|[Vv]irus|[Cc]orona|[Ll]ockdown"
 	,"[Pp]ubblicit[aà]"]

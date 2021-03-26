@@ -14,7 +14,7 @@ Search pattern * offline * returned result of : 4
 Search pattern * ritaglio|ritaglia|forbici * returned result of : 5
 Search pattern * anteprim|anticip * returned result of : 19
 Search pattern * [Ff]iltr|ordina per|ordino per|ordinare per * returned result of : 8
-Search pattern * [Rr]egione|[Pp]rovincia|[rR]oma|[Ll]ocal|[pP]osizione|distanza|zona|chilometr|vicin|due passi da * returned result of : 395
+Search pattern * [Rr]egione|[Pp]rovincia|[rR]oma|[Ll]ocal| [pP]osizione|distanza|zona|chilometr|vicin|due passi da * returned result of : 391
 Search pattern * [tT]ablet * returned result of : 31
 Search pattern * [Pp]andemia|[Vv]irus|[Cc]orona|[Ll]ockdown * returned result of : 9
 Search pattern * [Pp]ubblicit[aà] * returned result of : 409

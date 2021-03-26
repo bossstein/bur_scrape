@@ -100,8 +100,6 @@ versione cartacea è faccio prima
 Non sono aggiornati i volantini, mi arriva prima il cartaceo a casa e poi 
 non mi permette di applicare un filtro, ad esempio dare priorità a quello 
 che é più vicino a me.
-La locaizzazione dei punti vendita è molto molto inesatta rispetto alla mia 
-posizione più volte dettagliata.
 Non ci sono tutti i supermercati in zona, probabilmente non dipende 
 dall'app, ma dalle politiche del supermercato. (es Bennett).
 Non capisco perché pur essendo localizzato mi visualizza volantini di 
@@ -117,12 +115,6 @@ passato funziona molto bene. Leeco s3 pro
 Non mostra i negozi più vicini,nemeno mettendo la geoloc. Potreste 
 migliorare questo e magari mostrandoli in ordine di lontananza. La uso solo 
 x nn cercare i volantiti dai siti ma avvolte fa perdere tempo..peccato
-Non mi fa vedere i negozi che sono nella mia città e poco più lontani cioe 
-2km non mi fa vedere che sono su 5 però mi fa vedere quelli lontani su 20 
-km una app 0000000 e i volantini di questi negozi che cerco sul loro sito 
-ci sono però su questa app No, i negozii che sono e Pam,Eurospar, Despar, i 
-ns, Lidl, A/O questi negozi non ci sono proprio nella mia lista la mia 
-posizione è giusta sulla app
 Volantini in ritardo...catene di supermercati molto lontani 
 presenti...supermercati vicini a me assenti!!!!non è che faccio 40 km per 
 andare a fare la spesa in catene che non conosco neanche!!!!aggiornate le 
@@ -184,7 +176,6 @@ Servirebbe che la mappa di posizione diventasse interattiva.  Così vedrei i neg
 Non funziona la localizzazione manuale (via cap/indirizzo)
 Non voglio dare la mia posizione e quindi non mi si apre l'apparenza. Pazienza, ne farò a meno. Ciaociao
 Devo mettere solo 3 stelle...xe avevo installato l applicazione su un altro telefono e funzionava benissimo..ora con nuovo telefono non mi fa andare avanti bloccandosi sulla posizione anche a me come altro utente che vedo ha il mio stesso problema ..nonostante metto Cap. ..o indirizzo...non so come fare x andare avanti...non funziona più l'applicazione! Dispiaciuta xe funzionava molto bene!
-Pochi volantini a disposizione quando ce ne sarebbero tanti altri
 Mancanza volantini della zona
 Si impalla e non rileva la posizione
 Il 13/06/17 Disinstallato perché da almeno 5 mesi non parte, si apre ma non carica Oggi oggi reinstallato 23/08/17 e appena ti localizzi, manualmente o tramite GPS, dice ops qualcosa è andato storto. La connessione è buona, tramite wi-fi. Se provo ad aprire contatti, dal menù dell'App, non da nulla. Aspetto fino al weekend, se va bene altrimenti non la disinstallo per non reinstallare  Adddioos
@@ -230,7 +221,6 @@ Mi da delle offerte su volantini che non sono comodi nelle mia vicinanze!
 Abbastanza buono alcuni volantini vicini li devo carcare personalmente
 1. Non devo essere costretto ad accendere il gps per impostare la mia zona. 2. Anche impostandola a mano non funziona. QUINDI??????? DISINSTALLATA. GRAZIE. MEGLIO FORSE CHE GUARDO APP ALTERNATIVE.
 Non mi fa cambiare la citta.... posso soltanto vedere o negozi vicini.
-Sì alla grafica e ottima reattività ai comandi, ma troppo pochi volantini, manca la possibilità di scegliere i preferiti e scaricare in formato pdf per averli a disposizione offline. Insomma il contrario della app "Mondo volantino". Dovrebbero fondersi in una... 😀
 Non lascia decidere la città che voglio sono di Torino e mi da Roma..
 Purtroppo non visualizza volantini della mia zona ma solo quelli nazionali pur avendo impostato cap e gps attivo. Peccato perche funziona meglio di altre. Darò  5 stelle non appena saranno visibili i volantini della mia città
 Non funziona la pozione, dice sempre che sto a Roma ma non è vero! Riparate per favore
