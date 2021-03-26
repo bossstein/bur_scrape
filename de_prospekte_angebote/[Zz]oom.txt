@@ -1,0 +1,1 @@
+Einzige App, die nicht nur alle Händler hat, sondern auch die jeweils aktuellen Prospekte. Und keine Standortinfos abfragt. Super. Das einzige, was ich mir noch wünschen würde, ist eine etwas bessere Scanqualität der Prospekte: Produktbeschreibungen in kleinerer Schrift kann man trotz reinzoomen leider nicht lesen.

@@ -1,0 +1,18 @@
+Length = 35980Search pattern * [sS]alv[ao] * returned result of : 90
+Search pattern * [Cc]arte |fedelt[àa]|[tT]esser * returned result of : 52
+Search pattern * [Aa]ggiorna|in ritardo|puntual * returned result of : 2595
+Search pattern * [Cc]artace|[cC]assetta * returned result of : 368
+Search pattern * [Zz]oom|ingrandi * returned result of : 161
+Search pattern * [Cc]ashback|[Cc]oupon|[Bb]uoni sconto|[Bb]uono sconto * returned result of : 11
+Search pattern * [Ii]nterattiv * returned result of : 7
+Search pattern * [Aa]mbiente|carta |giornalini|spreco|spreca |sprechi|sprecare * returned result of : 401
+Search pattern * [Mm]ancant|ignorat|manca |mancano * returned result of : 462
+Search pattern * [Nn]otifiche * returned result of : 92
+Search pattern * cancella|rimouv|scadut * returned result of : 52
+Search pattern * offline * returned result of : 10
+Search pattern * ritaglio|ritaglia|forbici * returned result of : 13
+Search pattern * anteprim|anticip * returned result of : 83
+Search pattern * [Ff]iltr|ordina per|ordino per|ordinare per * returned result of : 32
+Search pattern * [Rr]egione|[Pp]rovincia|[rRoma]|[Ll]ocal|[pP]osizione|distanza|zona|chilometr|vicin|due passi da * returned result of : 33999
+Search pattern * [tT]ablet * returned result of : 81
+Search pattern * [Pp]andemia|[Vv]irus|[Cc]orona|[Ll]ockdown * returned result of : 12

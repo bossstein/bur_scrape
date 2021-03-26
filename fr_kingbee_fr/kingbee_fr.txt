@@ -1,0 +1,16 @@
+Length = 206Search pattern * [nN]otifications * returned result of : 0
+Search pattern * [Pp]apier|[ÉeéE]colo|[Pp]lan[èe]te * returned result of : 18
+Search pattern * [bB]o[iî]te|[Cc]ourrier|courriel * returned result of : 14
+Search pattern *  en avan * returned result of : 1
+Search pattern * [Cc]artes? * returned result of : 0
+Search pattern * [àa] jour * returned result of : 5
+Search pattern * local|[0-9 ]km|code postal * returned result of : 2
+Search pattern * [Ff]avori * returned result of : 3
+Search pattern * [Zz]oom|[Aa]grandi * returned result of : 1
+Search pattern * [Cc]onfinement|[Cc]orona * returned result of : 0
+Search pattern * [Ll]istes? des? courses?|[Ll]istes? d?'?achats? * returned result of : 0
+Search pattern * [Bb]ons? (de)? réduction|[Cc]oupon * returned result of : 0
+Search pattern * [Mm]anqu * returned result of : 2
+Search pattern * [Tt]ablette * returned result of : 0
+Search pattern * offline * returned result of : 0
+Search pattern * trop (de)? pubs?|trop (de )?publicit[ée]s?|bourr[ée]e?s? (de )?pubs?|bourr[ée]e?s? (de )?publicit[ée]s?|blind[ée]e?s? (de )?pubs?|blind[ée]e?s? (de )?publicit[ée]s?|combl[ée]e?s? (des? )?pubs?|comblee?s? (des? )?publiticit[ée]s?|pub [àa] (la)? pub|remplie?s? (de )?pubs?|remplie?s? (de )?publicit[ée]s|pubs? vid[ée]o|pop up * returned result of : 1

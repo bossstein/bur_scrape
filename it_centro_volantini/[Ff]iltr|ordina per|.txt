@@ -1,0 +1,6 @@
+I filtri regione non funzionano. Risultato? Hai sfogliato un volantino e poi dici noooohh. Era quello sbagliato!
+App utile, funziona sufficientemente bene senza bloccarsi a parte i filtri per regione che sembrino non aver effetto.
+Non male, c è qualche bug nei filtri ma i volantini sono davvero tanti.
+Con l'ultima versione l'applicazione è diventata rapidissima e con tutti i filtri di ricerca funzionanti. Provatela ora e vedrete che non avrà più tutti i bug della versione precedente essendo stata riscritta da 0 in un applicazione nativa!
+L'applicazione è buona, ma va migliorata. L'impaginazione è pessima, troppa pubblicità. Filtri per restringere la ricerca a determinati volantini praticamente inesistenti. Sarebbe utile poter segnalare quali negozi sono effettivamente presenti in una determinata regione e quali no.
+...c'è ancora da lavorarci. Ora con la grafica bianca è più usabile, e finalmente (!) si può cercare per nome di catena di supermercato. C'è un fastidioso bug che spero venga sistemato al più presto: quando filtro in qualche modo le catene, a volte sembra che non ci siano risultati e invece bisogna scrollare leggermente ma ci sono, solo che sono nascosti sopra! Inoltre sarebbe molto comodo avere la ricerca dei punti vendita come sul sito. Nel complesso non male, i contenuti sono sempre molto aggiornati.

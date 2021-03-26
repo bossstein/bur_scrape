@@ -1,0 +1,1 @@
+Störende Pop ups (amazon Werbung, GPS), dabei dürfte GPS zur bestimmung einmal am Anfang ausreichen, das habe ich zugelassen.Alle 10sekunden poppt "GPS ist nicht aktiviert" auf und er vergisst auch noch die Position, will neu bestimmen, nach 3 Minuten Bedienung.
