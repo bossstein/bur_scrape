@@ -142,7 +142,7 @@ fr_regex_strings = ["[nN]otifications"
 	,"[Mm]anqu"
 	,"[Tt]ablette"
 	,"offline"
-	,"trop (de)? pubs?|trop (de )?publicit[ée]s?|bourr[ée]e?s? (de )?pubs?|bourr[ée]e?s? (de )?publicit[ée]s?|blind[ée]e?s? (de )?pubs?|blind[ée]e?s? (de )?publicit[ée]s?|combl[ée]e?s? (des? )?pubs?|comblee?s? (des? )?publiticit[ée]s?|pub [àa] (la)? pub|remplie?s? (de )?pubs?|remplie?s? (de )?publicit[ée]s|pubs? vid[ée]o|pop up"]
+	,"[tT]rop (de)? pubs?|[Tt]rop (de )?publicit[ée]s?|[Bb]ourr[ée]e?s? (de )?pubs?|[Bb]ourr[ée]e?s? (de )?publicit[ée]s?|[Bb]lind[ée]e?s? (de )?pubs?|[Bb]lind[ée]e?s? (de )?publicit[ée]s?|[Cc]ombl[ée]e?s? (des? )?pubs?|[Cc]omblee?s? (des? )?publiticit[ée]s?|pub [àa] (la)? pub|[Rr]emplie?s? (de )?pubs?|[Rr]emplie?s? (de )?publicit[ée]s|pubs? vid[ée]o|pop up"]
 
 it_regex_strings = ["[sS]alv[ao]"
 	,"[Cc]arte |fedelt[àa]|[tT]esser"
@@ -159,9 +159,10 @@ it_regex_strings = ["[sS]alv[ao]"
 	,"ritaglio|ritaglia|forbici"
 	,"anteprim|anticip"
 	,"[Ff]iltr|ordina per|ordino per|ordinare per"
-	,"[Rr]egione|[Pp]rovincia|[rRoma]|[Ll]ocal|[pP]osizione|distanza|zona|chilometr|vicin|due passi da"
+	,"[Rr]egione|[Pp]rovincia|[rR]oma|[Ll]ocal|[pP]osizione|distanza|zona|chilometr|vicin|due passi da"
 	,"[tT]ablet"
-	,"[Pp]andemia|[Vv]irus|[Cc]orona|[Ll]ockdown"]
+	,"[Pp]andemia|[Vv]irus|[Cc]orona|[Ll]ockdown"
+	,"[Pp]ubblicit[aà]"]
 
 
 def de_scrape(app_url, market_tag):
@@ -191,6 +192,8 @@ def it_scrape(app_url, market_tag):
 #de_scrape('sk.kimbinogreen.kimbino', 'kimbino_de')
 #de_scrape('de.discounto', 'discount')
 #de_scrape('hu.p_app.angebot', 'prospekt_angebot_de')
+#de_scrape('de.marktjagd.android', 'marktjagd')
+
 
 #fr_scrape('fr.promocatalogues.app', 'kingbee_fr')
 #fr_scrape('fr.bonial.android', 'bonial')
