@@ -1,4 +1,4 @@
-Length = 35994Search pattern * [sS]alv[ao]|preferiti * returned result of : 188
+Length = 35995Search pattern * [sS]alv[ao]|preferiti|[lL]ista della spesa * returned result of : 241
 Search pattern * [Cc]arte |fedelt[àa]|[tT]esser * returned result of : 52
 Search pattern * [Aa]ggiorna|in ritardo|puntual * returned result of : 2598
 Search pattern * [Cc]artace|[cC]assetta * returned result of : 368
@@ -12,8 +12,8 @@ Search pattern * cancella|rimouv|scadut * returned result of : 53
 Search pattern * offline * returned result of : 10
 Search pattern * ritaglio|ritaglia|forbici * returned result of : 13
 Search pattern * anteprim|anticip * returned result of : 83
-Search pattern * [Ff]iltr|ordina per|ordino per|ordinare per * returned result of : 32
-Search pattern * [Rr]egione|[Pp]rovincia|[rR]oma|[Ll]ocal|[pP]osizione|distanza|zona|chilometr|vicin|due passi da * returned result of : 1313
+Search pattern * [Ff]iltr|ordina per|ordino per|ordinare per * returned result of : 33
+Search pattern * [Rr]egione|[Pp]rovincia|[rR]oma|[Ll]ocal|[pP]osizione|distanza|zona|chilometr|vicin|due passi da * returned result of : 1314
 Search pattern * [tT]ablet * returned result of : 81
 Search pattern * [Pp]andemia|[Vv]irus|[Cc]orona|[Ll]ockdown * returned result of : 12
 Search pattern * [Pp]ubblicit[aà] * returned result of : 562

@@ -1,4 +1,4 @@
-Length = 17Search pattern * [sS]alv[ao]|preferiti * returned result of : 0
+Length = 17Search pattern * [sS]alv[ao]|preferiti|[lL]ista della spesa * returned result of : 0
 Search pattern * [Cc]arte |fedelt[àa]|[tT]esser * returned result of : 0
 Search pattern * [Aa]ggiorna|in ritardo|puntual * returned result of : 1
 Search pattern * [Cc]artace|[cC]assetta * returned result of : 0

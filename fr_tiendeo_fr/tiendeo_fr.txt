@@ -5,10 +5,9 @@ Search pattern *  en avan * returned result of : 4
 Search pattern * [Cc]artes? * returned result of : 18
 Search pattern * [àa] jour * returned result of : 30
 Search pattern * local|[0-9 ]km|code postal * returned result of : 9
-Search pattern * [Ff]avori * returned result of : 16
 Search pattern * [Zz]oom|[Aa]grandi * returned result of : 4
 Search pattern * [Cc]onfinement|[Cc]orona * returned result of : 1
-Search pattern * [Ll]istes? des? courses?|[Ll]istes? d?'?achats? * returned result of : 6
+Search pattern * [Ll]istes? des? courses?|[Ll]istes? d?'?achats?|[Ff]avori|[sS]auve * returned result of : 23
 Search pattern * [Bb]ons? (de)? réduction|[Cc]oupon * returned result of : 2
 Search pattern * [Mm]anqu * returned result of : 18
 Search pattern * [Tt]ablette * returned result of : 3

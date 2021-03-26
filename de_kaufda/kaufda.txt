@@ -1,8 +1,7 @@
-Length = 24638Search pattern * [tT]ablet|[iI][pP]ad * returned result of : 67
+Length = 24643Search pattern * [tT]ablet|[iI][pP]ad * returned result of : 67
 Search pattern * [cC]oin|[cC]ashback|[gG]utschein * returned result of : 18
-Search pattern * [lL]ist|[sS]peichern|[eE]inkaufszettel * returned result of : 325
+Search pattern * [lL]ist|[sS]peichern|[eE]inkaufszettel|[lL]ieblings|[fF]avorit * returned result of : 648
 Search pattern * [bB]riefkast * returned result of : 355
-Search pattern * [lL]ieblings|[fF]avorit * returned result of : 379
 Search pattern * [Aa]ldi|[Pp]enny|[Nn]etto|[Kk]aufland|[sS]aturn| [Ff]ehlen| [fF]ehlt * returned result of : 2412
 Search pattern * [wW]erbung * returned result of : 817
 Search pattern * [sS]tandort|[nN][aä]he|[sS]t[äa]dt|[pP]ostleitzahl * returned result of : 500

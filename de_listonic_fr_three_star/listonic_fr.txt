@@ -1,0 +1,12 @@
+Length = 165Search pattern * [tT]ablet|[iI][pP]ad * returned result of : 0
+Search pattern * [cC]oin|[cC]ashback|[gG]utschein * returned result of : 0
+Search pattern * [lL]ist|[sS]peichern|[eE]inkaufszettel|[lL]ieblings|[fF]avorit * returned result of : 4
+Search pattern * [bB]riefkast * returned result of : 1
+Search pattern * [Aa]ldi|[Pp]enny|[Nn]etto|[Kk]aufland|[sS]aturn| [Ff]ehlen| [fF]ehlt * returned result of : 7
+Search pattern * [wW]erbung * returned result of : 5
+Search pattern * [sS]tandort|[nN][aä]he|[sS]t[äa]dt|[pP]ostleitzahl * returned result of : 6
+Search pattern * [pP]apier|[uU]mwelt|nachhaltig * returned result of : 0
+Search pattern * [kK]arte * returned result of : 0
+Search pattern * [Zz]oom * returned result of : 0
+Search pattern * offline * returned result of : 0
+Search pattern * [Cc]orona|[Ll]ockdown * returned result of : 0

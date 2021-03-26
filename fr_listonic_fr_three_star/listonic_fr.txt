@@ -1,0 +1,15 @@
+Length = 119Search pattern * [nN]otifications * returned result of : 0
+Search pattern * [Pp]apier|[ÉeéE]colo|[Pp]lan[èe]te * returned result of : 0
+Search pattern * [bB]o[iî]te|[Cc]ourrier|courriel * returned result of : 0
+Search pattern *  en avan * returned result of : 0
+Search pattern * [Cc]artes? * returned result of : 0
+Search pattern * [àa] jour * returned result of : 1
+Search pattern * local|[0-9 ]km|code postal * returned result of : 4
+Search pattern * [Zz]oom|[Aa]grandi * returned result of : 0
+Search pattern * [Cc]onfinement|[Cc]orona * returned result of : 0
+Search pattern * [Ll]istes? des? courses?|[Ll]istes? d?'?achats?|[Ff]avori|[sS]auve * returned result of : 0
+Search pattern * [Bb]ons? (de)? réduction|[Cc]oupon * returned result of : 1
+Search pattern * [Mm]anqu * returned result of : 0
+Search pattern * [Tt]ablette * returned result of : 0
+Search pattern * offline * returned result of : 0
+Search pattern * [tT]rop (de)? pubs?|[Tt]rop (de )?publicit[ée]s?|[Bb]ourr[ée]e?s? (de )?pubs?|[Bb]ourr[ée]e?s? (de )?publicit[ée]s?|[Bb]lind[ée]e?s? (de )?pubs?|[Bb]lind[ée]e?s? (de )?publicit[ée]s?|[Cc]ombl[ée]e?s? (des? )?pubs?|[Cc]omblee?s? (des? )?publiticit[ée]s?|pub [àa] (la)? pub|[Rr]emplie?s? (de )?pubs?|[Rr]emplie?s? (de )?publicit[ée]s|pubs? vid[ée]o|pop up * returned result of : 2

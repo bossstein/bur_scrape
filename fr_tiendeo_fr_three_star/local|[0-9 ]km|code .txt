@@ -1,0 +1,4 @@
+Malgré l'indication répétée de notre lieu de résidence et l'autorisation d'utilisation de la localisation (GPS), l'application nous renvoie invariablement à Paris. Que faire ?? Le problème a finalement été réglé
+Ne localise pas la ville de Saint brieuc
+Ne marche pas sur lg g5 Android 7. L'app se lance mais n'affiche rien d'autre que Paris et encore... Sans aucun prospectus déjà. Ne reconnaît pas la moindre ville que l'on peut taper même grande métropole, aussi bien par le nom que code postal. Je vire.
+Nul aucune localisation possible.

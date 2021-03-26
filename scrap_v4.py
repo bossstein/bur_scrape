@@ -2,7 +2,7 @@ from google_play_scraper import reviews
 import re
 import os
 
-scrape_result_cache = map()
+scrape_result_cache = dict()
 
 class AppScraper:
 
@@ -38,7 +38,7 @@ class AppScraper:
 		return os.path.join(os.getcwd(),self.lang_tag + "_" + self.market_tag)
 
 	def mkdir(self):
-		self.new_path = dir_path()
+		self.new_path = self.dir_path()
 		if not self.scrape_result:
 			return
 		os.mkdir(self.new_path)
@@ -116,7 +116,7 @@ class AppScraper:
 
 	def output_result(self):
 		out_file = open( os.path.join(self.new_path, self.market_tag + ".txt"), 'w+' )
-		out_file.write("Length = " + str(len(self.scrape_result)))
+		out_file.write("Length = " + str(len(self.scrape_result)) + "\n")
 		for search_string, count in self.result.items():
 			out_string = "Search pattern * " + search_string + " * returned result of : " + str(count)
 			print(out_string)
@@ -125,7 +125,7 @@ class AppScraper:
 			print("")
 		out_file.close()
 
-class 3_StarScraper(AppScraper):
+class ThreeStarScraper(AppScraper):
 	def extract_reviews(self):
 		self.reviews = [ e["content"] for e in self.scrape_result if e["score"] < 4 ]
 	def dir_path(self):
@@ -184,13 +184,19 @@ it_regex_strings = ["[sS]alv[ao]|preferiti|[lL]ista della spesa"
 def de_scrape(app_url, market_tag):
 	a = AppScraper(app_url, market_tag, 'de', de_regex_strings)
 	a.scrape()
+	a = ThreeStarScraper(app_url, market_tag, 'de', de_regex_strings)
+	a.scrape()
 
 def fr_scrape(app_url, market_tag):
 	a = AppScraper(app_url, market_tag, 'fr', fr_regex_strings)
 	a.scrape()
+	a = ThreeStarScraper(app_url, market_tag, 'fr', fr_regex_strings)
+	a.scrape()
 
 def it_scrape(app_url, market_tag):
 	a = AppScraper(app_url, market_tag, 'it', it_regex_strings)
+	a.scrape()
+	a = ThreeStarScraper(app_url, market_tag, 'it', it_regex_strings)
 	a.scrape()
 
 de_scrape('com.marktguru.mg2.de', 'marktguru')

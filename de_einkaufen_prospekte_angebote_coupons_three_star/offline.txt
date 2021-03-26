@@ -1,0 +1,2 @@
+Es fehlt ein offline Funktion für die Einkaufs- (Merk) liste. Zudem muss nach jedem update das Profil neu angemeldet werden.
+Leider gibt es kein offline Modus (einkaufsliste)

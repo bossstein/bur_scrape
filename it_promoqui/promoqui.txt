@@ -1,4 +1,4 @@
-Length = 13484Search pattern * [sS]alv[ao]|preferiti * returned result of : 194
+Length = 13484Search pattern * [sS]alv[ao]|preferiti|[lL]ista della spesa * returned result of : 256
 Search pattern * [Cc]arte |fedelt[àa]|[tT]esser * returned result of : 85
 Search pattern * [Aa]ggiorna|in ritardo|puntual * returned result of : 1086
 Search pattern * [Cc]artace|[cC]assetta * returned result of : 86

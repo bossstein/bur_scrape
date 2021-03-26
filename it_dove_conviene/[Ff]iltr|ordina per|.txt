@@ -1,3 +1,4 @@
+Salve, mi piace quest'app, ma avrei un consiglio da dare per quanto riguarda la ricerca di prodotti. Secondo me sarebbe opportuno inserire un filtro o un parametro nelle impostazioni principali attraverso il quale l'utente possa stabilire un raggio entro cui fare la spesa. Per esempio, sto cercando l'offerta delle fragole e nell'elenco vedo punti vendita a 12,5 kilometri da me, credo sia una distanza eccessiva. Per il resto, ben fatta.
 (ribadisco...) aggiungere un filtro tipo "ordina per" la renderebbe top e da 5★. Si potrebbe inserire qualche filtro di ricerca e aggiungere un "ordina per" (es. Ordina per distanza)
 Mi pare che non ci sia un filtro per tipologia prodotto
 Ultimamente è lenta e non permette di filtrare solo i volantini a volte li apre e mostra solo le singole offerte
