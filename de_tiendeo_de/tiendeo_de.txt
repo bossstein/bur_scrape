@@ -1,4 +1,5 @@
-Length = 328Search pattern * [tT]ablet|[iI][pP]ad * returned result of : 1
+Length = 328
+Search pattern * [tT]ablet|[iI][pP]ad * returned result of : 1
 Search pattern * [cC]oin|[cC]ashback|[gG]utschein * returned result of : 1
 Search pattern * [lL]ist|[sS]peichern|[eE]inkaufszettel|[lL]ieblings|[fF]avorit * returned result of : 8
 Search pattern * [bB]riefkast * returned result of : 2

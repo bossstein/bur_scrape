@@ -1,6 +1,7 @@
-Length = 3947Search pattern * [sS]alv[ao]|preferiti|[lL]ista della spesa * returned result of : 51
+Length = 3946
+Search pattern * [sS]alv[ao]|preferiti|[lL]ista della spesa * returned result of : 51
 Search pattern * [Cc]arte |fedelt[àa]|[tT]esser * returned result of : 8
-Search pattern * [Aa]ggiorna|in ritardo|puntual * returned result of : 322
+Search pattern * [Aa]ggiornat|in ritardo|puntual * returned result of : 233
 Search pattern * [Cc]artace|[cC]assetta * returned result of : 40
 Search pattern * [Zz]oom|ingrandi * returned result of : 20
 Search pattern * [Cc]ashback|[Cc]oupon|[Bb]uoni sconto|[Bb]uono sconto * returned result of : 5

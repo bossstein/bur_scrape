@@ -1,8 +1,48 @@
 from google_play_scraper import reviews
 import re
 import os
+import json
+import shutil
+import csv
+
+class CSVBuilder:
+	def __init__(self):
+		self.data = dict()
+		self.cols = set()
+		self.rows = set()
+	def add(self, col, row, value):
+		self.cols.add(col)
+		self.rows.add(row)
+		self.data[(col,row)] = value
+	def write_csv(self):
+		if os.path.isfile("csv.csv"):
+			os.remove("csv.csv")
+		f = open("csv.csv","w+")
+		writer = csv.writer(f)
+		self.cols = sorted(list(self.cols))
+		writer.writerow(["app_name"] + self.cols)
+		self.rows = sorted(list(self.rows))
+		for r in self.rows:
+			row = [ r ]
+			for c in self.cols:
+				if (c,r) in self.data:
+					row.append(self.data[(c,r)])
+				else:
+					row.append(" ")
+			writer.writerow( row )
+		f.close()
+
+CSV_WRITER = CSVBuilder()
 
 scrape_result_cache = dict()
+def dict_converter(list_of_dict):
+	new_list = []
+	for d in list_of_dict:
+		new_dict = dict()
+		new_dict['content'] = d['content']
+		new_dict['score'] = d['score']
+		new_list.append(new_dict)
+	return new_list
 
 class AppScraper:
 
@@ -29,10 +69,21 @@ class AppScraper:
 	def get_scrape_result(self):
 		if (self.market_tag, self.lang_tag) in scrape_result_cache:
 			self.scrape_result = scrape_result_cache[(self.market_tag, self.lang_tag)]
+		elif os.path.isfile(self.lang_tag + "_" + self.market_tag + "_reviews.json"):
+			self.scrape_result = []
+			f = open(self.lang_tag + "_" + self.market_tag + "_reviews.json", "r")
+			j = json.load(f)
+			for r in j:
+				d = dict()
+				d['content'] = r['content']
+				d['score'] = r['score']
+				self.scrape_result.append(d)
 		else: 
 			self.init_scrape_site()
 			self.remaining_scrape_site()
 			scrape_result_cache[(self.market_tag, self.lang_tag)] = self.scrape_result
+			with open(self.lang_tag + "_" + self.market_tag + "_reviews.json", "w+") as f:
+				json.dump(dict_converter(self.scrape_result), f)
 
 	def dir_path(self):
 		return os.path.join(os.getcwd(),self.lang_tag + "_" + self.market_tag)
@@ -41,6 +92,8 @@ class AppScraper:
 		self.new_path = self.dir_path()
 		if not self.scrape_result:
 			return
+		if os.path.isdir(self.new_path):
+			shutil.rmtree(self.new_path)
 		os.mkdir(self.new_path)
 		os.chdir(self.new_path)
 
@@ -118,6 +171,7 @@ class AppScraper:
 		out_file = open( os.path.join(self.new_path, self.market_tag + ".txt"), 'w+' )
 		out_file.write("Length = " + str(len(self.scrape_result)) + "\n")
 		for search_string, count in self.result.items():
+			CSV_WRITER.add(search_string, self.dir_path(), str(count))
 			out_string = "Search pattern * " + search_string + " * returned result of : " + str(count)
 			print(out_string)
 			out_file.write( out_string + '\n' )
@@ -162,7 +216,7 @@ fr_regex_strings = ["[nN]otifications"
 
 it_regex_strings = ["[sS]alv[ao]|preferiti|[lL]ista della spesa"
 	,"[Cc]arte |fedelt[àa]|[tT]esser"
-	,"[Aa]ggiorna|in ritardo|puntual"
+	,"[Aa]ggiornat|in ritardo|puntual"
 	,"[Cc]artace|[cC]assetta"
 	,"[Zz]oom|ingrandi"
 	,"[Cc]ashback|[Cc]oupon|[Bb]uoni sconto|[Bb]uono sconto"
@@ -238,3 +292,4 @@ it_scrape('com.sales.deals.weekly.ads.offers', 'listonic_it')
 it_scrape('sk.kimbinogreen.kimbino', 'kimbino')
 it_scrape('it.trovaprezzi.android', 'trovaprezzi')
 
+CSV_WRITER.write_csv()

@@ -1,4 +1,5 @@
-Length = 64Search pattern * [tT]ablet|[iI][pP]ad * returned result of : 0
+Length = 64
+Search pattern * [tT]ablet|[iI][pP]ad * returned result of : 0
 Search pattern * [cC]oin|[cC]ashback|[gG]utschein * returned result of : 2
 Search pattern * [lL]ist|[sS]peichern|[eE]inkaufszettel|[lL]ieblings|[fF]avorit * returned result of : 1
 Search pattern * [bB]riefkast * returned result of : 0

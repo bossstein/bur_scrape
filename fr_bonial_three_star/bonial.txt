@@ -1,4 +1,5 @@
-Length = 6663Search pattern * [nN]otifications * returned result of : 4
+Length = 6663
+Search pattern * [nN]otifications * returned result of : 4
 Search pattern * [Pp]apier|[ÉeéE]colo|[Pp]lan[èe]te * returned result of : 19
 Search pattern * [bB]o[iî]te|[Cc]ourrier|courriel * returned result of : 20
 Search pattern *  en avan * returned result of : 2

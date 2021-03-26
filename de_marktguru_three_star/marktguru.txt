@@ -1,4 +1,5 @@
-Length = 10923Search pattern * [tT]ablet|[iI][pP]ad * returned result of : 10
+Length = 10923
+Search pattern * [tT]ablet|[iI][pP]ad * returned result of : 10
 Search pattern * [cC]oin|[cC]ashback|[gG]utschein * returned result of : 59
 Search pattern * [lL]ist|[sS]peichern|[eE]inkaufszettel|[lL]ieblings|[fF]avorit * returned result of : 166
 Search pattern * [bB]riefkast * returned result of : 14

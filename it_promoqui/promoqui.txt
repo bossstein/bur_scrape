@@ -1,6 +1,7 @@
-Length = 13484Search pattern * [sS]alv[ao]|preferiti|[lL]ista della spesa * returned result of : 256
+Length = 13485
+Search pattern * [sS]alv[ao]|preferiti|[lL]ista della spesa * returned result of : 256
 Search pattern * [Cc]arte |fedelt[àa]|[tT]esser * returned result of : 85
-Search pattern * [Aa]ggiorna|in ritardo|puntual * returned result of : 1086
+Search pattern * [Aa]ggiornat|in ritardo|puntual * returned result of : 823
 Search pattern * [Cc]artace|[cC]assetta * returned result of : 86
 Search pattern * [Zz]oom|ingrandi * returned result of : 53
 Search pattern * [Cc]ashback|[Cc]oupon|[Bb]uoni sconto|[Bb]uono sconto * returned result of : 5
@@ -16,4 +17,4 @@ Search pattern * [Ff]iltr|ordina per|ordino per|ordinare per * returned result o
 Search pattern * [Rr]egione|[Pp]rovincia|[rR]oma|[Ll]ocal|[pP]osizione|distanza|zona|chilometr|vicin|due passi da * returned result of : 441
 Search pattern * [tT]ablet * returned result of : 20
 Search pattern * [Pp]andemia|[Vv]irus|[Cc]orona|[Ll]ockdown * returned result of : 3
-Search pattern * [Pp]ubblicit[aà] * returned result of : 210
+Search pattern * [Pp]ubblicit[aà] * returned result of : 211
